@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/container.css");
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  color: #e0e0e0;
+  background-color: #101010;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: #f8f8f8;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.transition-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box-shadow-hover:hover {
+  box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.3);
+}

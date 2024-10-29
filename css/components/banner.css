@@ -1,0 +1,37 @@
+.banner {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), 
+    url('../../images/background.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 150px 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 20px;
+  color: #cccccc;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #6a5acd;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 6px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #5a4cb3; 
+}

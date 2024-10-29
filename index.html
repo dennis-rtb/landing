@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PowerBeer - Batterie Portable avec Décapsuleur</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="avatar">
+      <img src="images/avatar.jpg" alt="Logo PowerBeer">
+    </div>
+  </header>
+
+  <section class="banner">
+    <h1>PowerBeer</h1>
+    <p>The portable charger that not only powers your phone but also opens up your best moments! Created by innovators who believe in blending technology with everyday fun, PowerBeer combines functionality and enjoyment, making it the perfect companion for life on the go.</p>
+    <a onclick="scrollToTypeform()" class="btn-primary">Buy now</a>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <img src="images/card-image.jpg" alt="PowerBeer Image">
+      <h3>Power and Convenience</h3>
+      <p>Charge your phone and open your bottles with ease.</p>
+    </div>
+    <div class="card">
+      <img src="images/card-image1.jpg" alt="PowerBeer Image">
+      <h3>Compact and Stylish</h3>
+      <p>The sleek design fits any style.</p>
+    </div>
+    <div class="card">
+      <img src="images/card-image2.jpg" alt="PowerBeer Image">
+      <h3>Long Battery Life</h3>
+      <p>Perfect for a full day out without compromise.</p>
+    </div>
+  </section>
+
+  <section id="typeform-section" class="typeform">
+    <h2>Contact us to learn more about the company</h2>
+    <div data-tf-live="01JBCRBMA1QB17AP9J87QX7HBG"></div>
+    <script src="https://embed.typeform.com/next/embed.js"></script>
+  </section>
+
+  <script>
+    function scrollToTypeform() {
+      document.getElementById("typeform-section").scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+</body>
+</html>

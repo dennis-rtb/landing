@@ -1,0 +1,16 @@
+.btn-primary {
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(145deg, #3d3d3d, #101010);
+  color: #ffffff;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.1);
+}
+.btn-primary:hover {
+  background: linear-gradient(145deg, #101010, #3d3d3d);
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.2);
+}
